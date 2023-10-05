@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "react-scripts start",
     "build": "react-scripts build"
+    "start": "serve build -s -n -L -p $PORT"
   },
   "eslintConfig": {
     "extends": [
